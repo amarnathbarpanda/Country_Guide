@@ -24,23 +24,25 @@ body{
 }
 
 .search_wrapper{
-    display: grid;
-    grid-template-columns: 9fr 3fr;
-    gap: 1.25em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 1em; */
 }
 
 .search_wrapper button{
     font-size: 1em;
     background-color: #3d64e6;
     color: #ffffff;
-    padding: 0.5em 0;
+    padding: 0.5em 1em;
     border: 0;
     border-radius: 1.5em;
 }
 
 .search_wrapper input{
-    font-size: 1em;
-    padding: 0 0.62em;
+    width: 70%;
+    font-size: .9em;
+    padding: 0 0.5em;
     border: none;
     border-bottom: 2px solid #3d64e6;
     outline: none;
